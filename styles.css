@@ -299,3 +299,148 @@ footer {
 .direitos {
   padding: 30px;
 }
+
+@media (max-width: 600px) {
+  .resumo {
+    padding: 14px;
+    flex-direction: column;
+  }
+
+  .resumo h2 {
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .resumo p {
+    font-size: 18px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .quadroLing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    background-color: #03070d;
+    padding: 30px;
+    border-radius: 30px;
+    border: rgb(109, 78, 252) solid;
+    box-shadow: -8px 8px 0px 2px rgb(109, 78, 252);
+  }
+
+  .middle2 div h2 {
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(109, 78, 252);
+  }
+
+  .ling1 img,
+  .ling2 img {
+    width: 40px;
+    padding: 10px;
+  }
+
+  .ling1 {
+    gap: 40px;
+  }
+
+  .ling2 {
+    gap: 40px;
+  }
+
+  .l1,
+  .l2,
+  .l3,
+  .l4,
+  .l5,
+  .l6 {
+    transition: all 1s ease;
+  }
+
+  .l1:hover,
+  .l2:hover,
+  .l3:hover,
+  .l4:hover,
+  .l5:hover,
+  .l6:hover {
+    transform: scale(1.1) translateX(10px);
+    /* box-shadow: 0px 0px 30px 1px rgb(109, 78, 252); */
+  }
+
+  .middle4 a img {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+    /* background-color: white; */
+    /* border: white solid; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .middle4 a {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+  }
+
+  .redes {
+    gap: 10px;
+  }
+
+  .middle4 a:hover {
+    transform: scale(1.1);
+    box-shadow: none;
+  }
+
+  .contatos p {
+    font-size: 12px;
+    width: 90px;
+  }
+
+  .direitos p {
+    font-size: 12px;
+    width: 90px;
+  }
+
+  .contatos {
+    padding: 20px;
+  }
+
+  .direitos {
+    padding: 20px;
+  }
+
+  .main h1 {
+    font-size: 45px;
+  }
+
+  .main h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .resumo {
+    padding: 10px;
+  }
+
+  .resumo h2 {
+    font-size: 24px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .resumo p {
+    font-size: 18px;
+    width: 350px;
+  }
+}
